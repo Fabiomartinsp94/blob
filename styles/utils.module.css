@@ -1,0 +1,56 @@
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightText {
+  color: #666;
+}
+
+.liner {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.liner:after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background: #d66853;
+  min-width: 20px;
+  margin: auto;
+}
+
+.liner:after {
+  margin-left: 20px;
+}
+
+.homePhotos {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.title {
+  background-color: white;
+  width: 100%;
+  min-height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

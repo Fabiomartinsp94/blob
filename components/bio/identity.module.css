@@ -1,0 +1,29 @@
+.identity {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: left;
+  width: 100%;
+}
+
+.image {
+  float: right;
+  object-fit: cover;
+  margin-bottom: 15px;
+  margin-top: 0;
+  padding-left: 30px;
+  height: 300px;
+  width: 500px;
+}
+
+@media (max-width: 1018px) {
+  .image {
+    float: inline-start;
+    width: 100%;
+    justify-content: start;
+    padding-left: 0;
+  }
+}
