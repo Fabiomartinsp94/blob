@@ -1,13 +1,8 @@
 import Image from "next/image";
-import Head from "next/head";
 import Layout, { siteTitle } from "../../components/layout";
 import utilStyles from "../../styles/utils.module.css";
 
-import {
-  faLinkedin,
-  faGithub,
-  faGit,
-} from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Bios() {

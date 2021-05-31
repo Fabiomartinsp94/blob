@@ -5,7 +5,18 @@ import Photo from "../components/round_photo/rount_photo";
 
 import utilStyles from "../styles/utils.module.css";
 
-export default function Home() {
+import { getDateString } from "../lib/time";
+
+export async function getStaticProps() {
+  const today = getDateString();
+  return {
+    props: {
+      today,
+    },
+  };
+}
+
+export default function Home({ today }) {
   const names = ["Guilherme", "Fabio", "Juliane"];
 
   const header = {
@@ -21,7 +32,7 @@ export default function Home() {
             velit laoreet viverra eu sit amet tortor.`;
 
   return (
-    <Layout>
+    <Layout today={today}>
       <section>
         <div className={utilStyles.title}>
           <div>
@@ -33,6 +44,7 @@ export default function Home() {
               alt="logo"
               objectFit="fill"
             />
+            <p>{today}</p>
           </div>
         </div>
       </section>
