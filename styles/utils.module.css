@@ -53,4 +53,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.withLink {
+  display: flex;
+  flex-direction: row;
+}
+
+.withLink a {
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.withLink a:hover {
+  color: #ffa500;
 }

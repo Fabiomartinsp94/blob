@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  white-space: pre-wrap;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -69,3 +73,29 @@ img {
   height: 50px;
   padding: 10px;
 }
+
+contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+contact a {
+  color: black;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+contact a:hover {
+  text-decoration: none;
+  color: #ffa500;
+  font-style: bold;
+  cursor: pointer;
+}
+
+contact .socialMediaIcon {
+  height: 40px;
+  padding: 10px;
+}
+

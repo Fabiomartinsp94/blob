@@ -1,0 +1,32 @@
+.projectAbstract {
+  color: lightslategrey;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 16px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+
+.projectAbstract p {
+  padding-right: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0;
+}
+
+.projectTitle p {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.projectDescription {
+  -webkit-box-orient: vertical;
+  margin-bottom: 30px;
+}
+
+.projectContainer {
+  text-align: left;
+}
