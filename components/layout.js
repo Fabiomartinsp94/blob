@@ -11,7 +11,7 @@ export default function Layout({  children }) {
     <div className={styles.layout}>
       <Head>
         <title>Blob</title>
-        <link rel="icon" href="/logo1.png" />
+        <link rel="icon" href="/logo.png" />
         <meta name="description" content="Our personal blog using Next.js" />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />

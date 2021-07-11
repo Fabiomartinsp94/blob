@@ -1,12 +1,12 @@
 import styles from "./post.module.css";
 
-export default function Post({ header, title, description }) {
+export default function Post({ date, author, title, description }) {
   return (
     <div className={styles.postContainer}>
       <div className={styles.postHeader}>
-        <p>{header.date}</p>
+        <p>{date}</p>
         <p>-</p>
-        <p>{header.author}</p>
+        <p>{author}</p>
       </div>
       <div className={styles.postTitle}>
         <p>{title}</p>

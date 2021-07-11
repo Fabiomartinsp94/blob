@@ -2,7 +2,7 @@ import Image from "next/image";
 import utilStyles from "../../styles/utils.module.css";
 import styles from "./round_photo.module.css";
 
-export default function Photo({ names }) {
+export default function Photo({ names, height}) {
   return (
     <div className={utilStyles.homePhotos}>
       {names.map(function (name) {
@@ -13,8 +13,8 @@ export default function Photo({ names }) {
                 priority
                 src={`/images/profile/${name.toLowerCase()}.jpg`}
                 className={utilStyles.borderCircle}
-                height={200}
-                width={200}
+                height={height}
+                width={height}
                 objectFit="cover"
               />
             </a>

@@ -4,20 +4,11 @@ import Post from "../components/post/post";
 import Photo from "../components/round_photo/rount_photo";
 
 import utilStyles from "../styles/utils.module.css";
+import head from "next/head";
 
-import { getDateString } from "../lib/time";
 
-export async function getStaticProps() {
-  const today = getDateString();
-  return {
-    props: {
-      today,
-    },
-  };
-}
-
-export default function Home({ today }) {
-  const names = ["Guilherme", "Fabio", "Juliane"];
+export default function Home() {
+  const names = ["Guilherme", "Fabio"];
 
   const header = {
     date: "18 de Março, 2021",
@@ -32,7 +23,7 @@ export default function Home({ today }) {
             velit laoreet viverra eu sit amet tortor.`;
 
   return (
-    <Layout today={today}>
+    <Layout>
       <section>
         <div className={utilStyles.title}>
           <div>
@@ -44,19 +35,20 @@ export default function Home({ today }) {
               alt="logo"
               objectFit="fill"
             />
-            <p>{today}</p>
           </div>
         </div>
       </section>
       <section>
         <h1 className={utilStyles.liner}>News</h1>
-        <Post header={header} title={title} description={description}></Post>
-        <Post header={header} title={title} description={description}></Post>
-        <Post header={header} title={title} description={description}></Post>
+        <Post date={header.date} author={header.author} title={title} description={description}></Post>
+        <Post date={header.date} author={header.author} title={title} description={description}></Post>
+        <Post date={header.date} author={header.author} title={title} description={description}></Post>
       </section>
       <section>
         <h1 className={utilStyles.liner}>Devs</h1>
-        <Photo names={names}></Photo>
+        <Photo names={names}
+              height={200}>
+        </Photo>
       </section>
     </Layout>
   );
