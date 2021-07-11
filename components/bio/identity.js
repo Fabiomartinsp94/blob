@@ -10,7 +10,7 @@ export default function Identity({ name, description }) {
       </section>
       <div className={styles.identity}>
         <p>
-          <img className={styles.image} src={`/images/profile/${name}.jpg`} />
+          <img className={styles.image} src={`/images/profile/${name.toLowerCase()}.jpg`} />
           {description}
         </p>
       </div>
