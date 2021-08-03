@@ -1,4 +1,12 @@
-﻿# Usando Markdown para criar conteúdo em um blog
+﻿---
+title: "Usando Markdown para criar conteúdo em um blog"
+date: "2021-08-03"
+author: "Guilherme"
+description: "Como começar a usar markdown em suas documentações, repositórios do github e para criação de conteudo HTML geral."
+---
+ 
+ # Usando Markdown para criar conteúdo em um blog
+ 
 __Markdown__ é uma sintaxe usada para padronizar e facilitar a criação de conteúdo textual em HTML. E neste post listaremos várias funcionalidades básicas e comumente utilizada para facilitar a utilização desta sintaxe.
 
 > O Markdown funciona como um conversor de texto para HTML: os caracteres não-alfabéticos são traduzidos como `<b>`, `<i>` e `<a href>`, etc. Já os textos sem formatação entram como parágrafo simples `<p>`.
