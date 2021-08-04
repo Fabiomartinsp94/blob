@@ -15,7 +15,10 @@ export default function Posts({ allPostsData }) {
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, author, description }) => (
             <Link className={utilStyles.withLink} href={`/posts/${encodeURIComponent(id)}`}>
-              <Post date={date} title={title} author={author} description={description} key={id}></Post>
+              <a>{`/posts/${encodeURIComponent(id)}`}<a>
+            </Link>
+            <Link className={utilStyles.withLink} href={`/posts/${encodeURIComponent(id)}`}>
+              <a><Post date={date} title={title} author={author} description={description} key={id}></Post><a>
             </Link>
           ))}
         </ul>
