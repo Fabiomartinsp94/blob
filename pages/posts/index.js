@@ -14,11 +14,11 @@ export default function Posts({ allPostsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, author, description }) => (
-            <Link className={utilStyles.withLink} href={`/posts/${id}`}>
-              <li>
+            <li>
+              <Link className={utilStyles.withLink} href={`/posts/${id}`}>
                 <Post date={date} title={title} author={author} description={description} key={id}></Post>
-              </li>
-            </Link>
+              </Link>
+            </li>
           ))}
         </ul>
       </section>
