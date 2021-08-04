@@ -73,12 +73,12 @@ Para listas ordenadas, utilize o número do item seguido de ponto  `.`  :
 As listas acima serão exibidas dessa maneira, respectivamente:
 
 *  Item 1
-*   Item 2
-*   Item 3
+*  Item 2
+*  Item 3
 
-1.  Item 1
-2.  Item 2
-3.  Item 3
+1. Item 1
+2. Item 2
+3. Item 3
 
 ## Imagens
 
@@ -88,8 +88,8 @@ O código para inserir uma imagem no conteúdo é semelhante ao código de inser
 ![Alt ou título da imagem](URL da imagem)
 ```
 
-> Esta é uma linha com uma imagem personalizada  ![Eddie Feliz](https://pipz.com/static/images/blog/eddie.png).
-> 
+> Esta é uma linha com uma imagem personalizada ![Eddie Feliz](https://pipz.com/static/images/blog/eddie.png)
+>
 > Imagens grandes podem estar em linhas individuais, para serem exibidas em maior tamanho.
 
 ## Citação
@@ -116,10 +116,10 @@ Há dois modos de adicionar trechos de código ao Markdown:
 
 ```
  Esta é uma linha que contém um ˋcódigoˋ.
+```
 
-ˋˋˋ
+```python
 Esta é uma linha de código
- ˋˋˋ
 ```
 
 Para especificar que tipo de linguagem está sendo apresentada no bloco de códigos adicionando o nome da linguagem de programação após o  `ˋˋˋ`  ou  `~~~`, por exemplo  `~~~javascript`  ou  `~~~ruby`. Veja nos exemplos abaixo:
