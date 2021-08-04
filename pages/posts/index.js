@@ -17,7 +17,7 @@ export default function Posts({ allPostsData }) {
           
             <a>{id}</a>
             
-            <Link className={utilStyles.withLink} href={`/posts/${encodeURIComponent(id)}`}>
+            <Link className={utilStyles.withLink} href={`/posts/${id}`}>
               <a><Post date={date} title={title} author={author} description={description} key={id}></Post></a>
             </Link>
           ))}
