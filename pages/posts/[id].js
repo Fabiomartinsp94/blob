@@ -7,8 +7,6 @@ import Head from "next/head";
 import Photo from "../../components/round_photo/rount_photo";
 
 
-
-
 export default function Post({ postData }) {
   
   return (
