@@ -5,6 +5,7 @@ import Date from '../../components/date'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from "next/head";
 import Photo from "../../components/round_photo/rount_photo";
+import Link from "next/link";
 
 
 export default function Post({ postData }) {
@@ -14,18 +15,23 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article>
+      
         <h1 className={utilStyles.title}>{postData.title}</h1>
-          <Date dateString={postData.date} />
-        <div className={utilStyles.liner}>
+        
+        <div className={utilStyles.marginBottom}>
+          <div class={`${utilStyles.centerLink} ${utilStyles.withLink}`}>
+            <Link href={`/bios/${postData.author.toLowerCase()}`}>{postData.author}</Link>
+          </div>
+          <div>
+           <Date dateString={postData.date} />
+          </div>
         </div>
+
+        
+        
+        <article className={utilStyles.article}>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-      </article>
-      <section>
-      <Photo names={[postData.author]}
-              height={100}>
-      </Photo>
-      </section>
+        </article>
     </Layout>
   )
 }

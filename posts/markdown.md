@@ -1,11 +1,10 @@
 ﻿---
-title: "Usando Markdown para criar conteúdo em um blog"
+title: "Cheat Sheet simples para Markdown"
 date: "2021-08-03"
 author: "Guilherme"
-description: "é uma sintaxe usada para padronizar e facilitar a criação de conteúdo textual em HTML. E neste post listaremos várias funcionalidades básicas e comumente utilizada para facilitar a utilização desta sintaxe."
+description: "Markdown é uma sintaxe usada para padronizar e facilitar a criação de conteúdo textual em HTML. E neste post listaremos várias funcionalidades básicas e comumente utilizada para facilitar a utilização desta sintaxe."
 ---
 
-# Usando Markdown para criar conteúdo em um blog
 __Markdown__ é uma sintaxe usada para padronizar e facilitar a criação de conteúdo textual em HTML. E neste post listaremos várias funcionalidades básicas e comumente utilizada para facilitar a utilização desta sintaxe.
 
 > O Markdown funciona como um conversor de texto para HTML: os caracteres não-alfabéticos são traduzidos como `<b>`, `<i>` e `<a href>`, etc. Já os textos sem formatação entram como parágrafo simples `<p>`.
@@ -73,12 +72,12 @@ Para listas ordenadas, utilize o número do item seguido de ponto  `.`  :
 As listas acima serão exibidas dessa maneira, respectivamente:
 
 *  Item 1
-*   Item 2
-*   Item 3
+*  Item 2
+*  Item 3
 
-1.  Item 1
-2.  Item 2
-3.  Item 3
+1. Item 1
+2. Item 2
+3. Item 3
 
 ## Imagens
 
@@ -88,7 +87,7 @@ O código para inserir uma imagem no conteúdo é semelhante ao código de inser
 ![Alt ou título da imagem](URL da imagem)
 ```
 
-> Esta é uma linha com uma imagem personalizada  ![Eddie Feliz](https://pipz.com/static/images/blog/eddie.png).
+> Linha com imagem ![Eddie Feliz](https://pipz.com/static/images/blog/eddie.png).
 > 
 > Imagens grandes podem estar em linhas individuais, para serem exibidas em maior tamanho.
 
@@ -111,15 +110,15 @@ Como aparece no HTML:
 
 Há dois modos de adicionar trechos de código ao Markdown:
 
--   **Código em linha**  (_inline_): adicione um acento grave  `ˋ`  no início e no final do código.
--   **Múltiplas linhas de código**: envolva as linhas de código com três acentos graves  `ˋˋˋ`  ou três tils  `~~~`.
+-   **Código em linha**  (_inline_): adicione um acento grave  `ˋˋˋ`  no início e no final do código.
+-   **Múltiplas linhas de código**: envolva as linhas de código com três acentos graves  `ˋˋˋ` ou três tils  ˋ~~~ˋ.
 
 ```
  Esta é uma linha que contém um ˋcódigoˋ.
 
 ˋˋˋ
 Esta é uma linha de código
- ˋˋˋ
+ˋˋˋ
 ```
 
 Para especificar que tipo de linguagem está sendo apresentada no bloco de códigos adicionando o nome da linguagem de programação após o  `ˋˋˋ`  ou  `~~~`, por exemplo  `~~~javascript`  ou  `~~~ruby`. Veja nos exemplos abaixo:

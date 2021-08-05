@@ -1,3 +1,7 @@
+.article {
+  text-align: left !important;
+}
+
 .borderCircle {
   border-radius: 9999px;
 }
@@ -70,4 +74,13 @@
 
 .withLink a:hover {
   color: #ffa500;
+}
+
+.centerLink {
+  align-items: center;
+  justify-content: center;
+}
+
+.marginBottom {
+  margin-bottom: 2rem;
 }

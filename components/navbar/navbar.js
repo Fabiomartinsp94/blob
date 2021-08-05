@@ -39,16 +39,6 @@ export default function Navbar() {
               </a>
             </Link>
           </div>
-          <div className={styles.item}>
-            <Link href="/contact">
-              <a>
-                <span>
-                  <FontAwesomeIcon icon={faTerminal} />
-                </span>
-                /contact
-              </a>
-            </Link>
-          </div>
         </div>
       </div>
     </div>

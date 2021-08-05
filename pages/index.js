@@ -1,13 +1,13 @@
 import Layout, { siteTitle } from "../components/layout";
 import Image from "next/image";
-import Post from "../components/post/post";
 import Photo from "../components/round_photo/rount_photo";
+import PostsList from "../components/post_list/post_list";
 
 import utilStyles from "../styles/utils.module.css";
-import head from "next/head";
+import { getSortedPostsData } from '../lib/posts'
 
 
-export default function Home() {
+export default function Home({ allPostsData }) {
   const names = ["Guilherme", "Fabio"];
 
   const header = {
@@ -40,9 +40,7 @@ export default function Home() {
       </section>
       <section>
         <h1 className={utilStyles.liner}>News</h1>
-        <Post date={header.date} author={header.author} title={title} description={description}></Post>
-        <Post date={header.date} author={header.author} title={title} description={description}></Post>
-        <Post date={header.date} author={header.author} title={title} description={description}></Post>
+        <PostsList data={allPostsData} slice={2}></PostsList>
       </section>
       <section>
         <h1 className={utilStyles.liner}>Devs</h1>
@@ -52,4 +50,13 @@ export default function Home() {
       </section>
     </Layout>
   );
+}
+
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData()
+  return {
+    props: {
+      allPostsData
+    }
+  }
 }
