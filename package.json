@@ -24,8 +24,8 @@
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
     "remark-parse": "^10.0.0",
-    "remark-preset-lint-markdown-style-guide": "^4.0.0",
     "remark-react": "^8.0.0",
+    "remark-rehype": "^8.1.0",
     "unified": "^10.1.0"
   }
 }
