@@ -8,23 +8,23 @@ description: "Sabemos hoje em dia que a área de TI é uma das áreas que mais m
 # TI em um contexto global
 >Sabemos hoje em dia que a área de __TI__ é uma das áreas que mais movimentam dinheiro no mundo. Mas será que isso vai perdurar?
 
-Para inicarmos essa dicussão pouco prática mas muito filosófica, acho necessário discorrer sobre as funções e competências dos funcionarios de TI. 
+Para inicarmos essa dicussão pouco prática, mas muito filosófica, acho necessário discorrer sobre as funções e competências dos funcionarios de TI. 
 
 Significado de __trabalho__ no dicionário:
 >"conjunto de atividades, produtivas ou criativas, que o homem exerce para atingir determinado fim."
 
-De acordo com essa definição, podemos supor que as atividades exercidas precisam de um ponto de início, também chamado de matéria prima, Nenhum trabalho, mesmo que intelectual, seria possível sem a matéria prima, e essa matéria prima passa por um processo de criação, manipulação ou até mesmo extração, para se tornar o produto final. Como exemplo, podemos pensar em uma impressora 3d, ou até mesmo em um torno mecânico.
+De acordo com essa definição, podemos supor que as atividades exercidas precisam de um ponto de início, também chamado de matéria prima, Nenhum trabalho inclusive o intelectual, seria possível sem a matéria prima, e é essa matéria prima que passa por um processo de criação, manipulação ou até mesmo extração, para se tornar o produto final. Como exemplo, podemos pensar em uma impressora 3d, ou até mesmo em um torno mecânico.
 
 Enquanto a impressora deposita material sobre a matéria prima, o torno faz exatamente o contrário, retira o material da matéria prima, para obter o produto final.
 
-Apesar dessas diferenças, os dois métodos tem algo em comum, os dois produtos finais, tanto o adicionado, quanto o subtraído apresentam um valor muito maior do que a matéria prima utilizada. As duas matérias primas passaram por um processo, e se tornaram úteis, agregando o valor do trabalho no fim do processo.
+Apesar dessas diferenças, os dois métodos tem algo em comum, os produtos finais, tanto o adicionado, quanto o subtraído apresentam um valor muito maior do que a matéria prima utilizada. As duas matérias passaram por um processo, e tornaram-se úteis, agregando o valor do trabalho no fim dele.
 
 >Certo, isso é óbvio, mas o que isso tem a ver com a área de TI atualmente? A área de TI tem sua matéria prima? qual o produto final? E o processo?
 
 ## Processo de criação na TI
 Certo, agora que entendemos que o trabalho nada mais é do que uma transformação de matéria prima para o produto final, devo perguntar pra vocês, e se tivessemos uma fonte quase infinita de matéria prima? e se essa fonte fosse praticamente gratuita?
 
-Pois bem, agora entramos no âmbito de TI, independentemente da ocupação dentro da área, a sua matéria prima são os __dados__!
+Assim, agora entramos no âmbito de TI, independentemente da ocupação dentro da área, a sua matéria prima são os __dados__!
 Isso mesmo, qualquer dado, desde um data lake que vai ser tratado e exibido no power BI, até os dados de um cliente que a equipe de segurança deveria proteger. Esses dados passam por algum processo de manipulação e chegam até o cliente como algo que chamaremos de I.
 
 Sabemos que o processo de manipulação desses dados é uma função nossa, como funcionários de TI, mas como nós modificamos esses dados até chegar no tão querido I?
