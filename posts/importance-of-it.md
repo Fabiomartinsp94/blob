@@ -29,7 +29,7 @@ Isso mesmo, qualquer dado, desde um data lake que vai ser tratado e exibido no p
 
 Sabemos que o processo de manipulação desses dados é uma função nossa, como funcionários de TI, mas como nós modificamos esses dados até chegar no tão querido I?
 
-Pois bem, para explicar isso, devemos voltar e conversar com um cara chamado Alan Mathison Turing, que criou uma Maquina que leva seu último nome. Essa maquina, inicialmente, tinha por objetivo se "transformar" em qualquer coisa que o usuário precisasse, e embora pareça algo inantigível, após 85 anos, estamos cada vez mais próximos dessa proposta.
+Pois bem, para explicar isso, devemos voltar e conversar sobre um cara chamado Alan Mathison Turing, que criou uma Maquina que leva seu último nome. Essa maquina, inicialmente, tinha por objetivo se "transformar" em qualquer coisa que o usuário precisasse, e embora pareça algo inatigível, após 85 anos, estamos cada vez mais próximos dessa proposta.
 
 Se pararmos um pouco para pensar, o computador atual, nada mais é do que uma máquina que realiza apenas uma operação lógica, a adição, e com essa simples operação, conseguimos desenvolver todos os aplicativos, programas e algoritimos usados hoje.
 
@@ -44,4 +44,4 @@ I nada mais é do que Informação, a informação que você quer, a informaçã
 Talvez você nunca tenha pensado nisso, mas você, como programador, não é nem um pouco diferente do pedreiro, padeiro, marceneiro, etc. Mas o seu produto final, provavelmente é o mais visado no mercado.
 A informação atualmente é tão importante que existem mercados de "desinformações" ou, como gostamos de chamar, FakeNews, que geralmente são usadas como propagandas.
 
-Agora que você chegou ao fim desse post, que lembrando, é apenas um devaneio de alguem que está entrando na área agora, que tal irmos para algo mais prático na nossa pagina de `[Posts](https://blob-pi.vercel.app/posts)`.
+Agora que você chegou ao fim desse post, que lembrando, é apenas um devaneio de alguem que está entrando na área agora, que tal irmos para algo mais prático na nossa pagina de [Posts](https://blob-pi.vercel.app/posts).
