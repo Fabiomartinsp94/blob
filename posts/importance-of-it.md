@@ -5,7 +5,6 @@ author: "Fabio"
 description: "Sabemos hoje em dia que a área de TI é uma das áreas que mais movimentam dinheiro no mundo. Mas será que isso vai perdurar?"
 ---
 
-# TI em um contexto global
 >Sabemos hoje em dia que a área de __TI__ é uma das áreas que mais movimentam dinheiro no mundo. Mas será que isso vai perdurar?
 
 Para inicarmos essa dicussão pouco prática, mas muito filosófica, acho necessário discorrer sobre as funções e competências dos funcionarios de TI. 
